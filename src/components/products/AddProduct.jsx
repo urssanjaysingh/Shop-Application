@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import { useNavigate } from "react-router-dom";
 import { useSetRecoilState } from "recoil";
+import toast from "react-hot-toast";
 import { productState } from "../recoil/productRecoil";
 
 const AddProduct = () => {
@@ -37,6 +38,7 @@ const AddProduct = () => {
             type: "",
             id: uuidv4(),
         });
+        toast.success("Item Added Successfully!");
         navigate("/");
     };
 

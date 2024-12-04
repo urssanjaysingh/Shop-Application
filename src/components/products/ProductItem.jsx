@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { productState } from "../recoil/productRecoil";
 import { useRecoilState } from "recoil";
+import toast from "react-hot-toast";
 
 const ProductItem = ({ product }) => {
     const [products, setProducts] = useRecoilState(productState);
@@ -11,6 +12,7 @@ const ProductItem = ({ product }) => {
             (product) => product.id !== productId
         );
         setProducts(newProducts);
+        toast.error("Item Deleted Successfully!");
     };
 
     return (

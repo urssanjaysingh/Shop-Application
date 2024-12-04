@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams, Link } from "react-router-dom";
 import { useRecoilState } from "recoil";
+import toast from "react-hot-toast";
 import { productState } from "../recoil/productRecoil";
 
 const EditProduct = () => {
@@ -32,6 +33,7 @@ const EditProduct = () => {
             product.id === id ? editProduct : product
         );
         setProducts(updated_products);
+        toast.success("Item Updated Successfully!");
         navigate("/");
     };
 
