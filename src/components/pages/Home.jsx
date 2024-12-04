@@ -7,7 +7,10 @@ const Home = () => {
     return (
         <Fragment>
             <Navbar />
-            <div className="has-background-light">
+            <div
+                className="has-background-light"
+                style={{ minHeight: "100vh" }}
+            >
                 <div className="container">
                     <div className="section">
                         <div className="columns">
