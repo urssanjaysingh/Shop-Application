@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Toaster } from "react-hot-toast";
 import Navbar from "../layout/Navbar";
 import Sidebar from "../layout/Sidebar";
 import Products from "../products/Products";
@@ -7,7 +6,6 @@ import Products from "../products/Products";
 const Home = () => {
     return (
         <Fragment>
-            <Toaster />
             <Navbar />
             <div
                 className="has-background-light"

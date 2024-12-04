@@ -8,6 +8,7 @@ import EditProduct from "./components/products/EditProduct";
 const App = () => {
     return (
         <Fragment>
+            <Toaster position="bottom-right" />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/add-product" element={<AddProduct />} />
