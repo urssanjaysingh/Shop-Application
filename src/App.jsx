@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 import "./App.css";
 import Home from "./components/pages/Home";
 import AddProduct from "./components/products/AddProduct";
