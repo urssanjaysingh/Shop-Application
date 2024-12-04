@@ -22,6 +22,7 @@ This project is a React-based shop application built using [Vite](https://vitejs
 ## Live Demo
 
 Try out the live version of the app:
+
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-View-green?style=for-the-badge&logo=web&logoColor=white)](https://shop-application-9ng4.onrender.com)
 
 ## Installation
