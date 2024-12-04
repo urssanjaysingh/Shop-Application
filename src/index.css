@@ -4,6 +4,9 @@
 
 html {
     background-color: #f4f4f4;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #cccccc #f9f9f9;
 }
 
 body {
@@ -13,4 +16,21 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #bbbbbb;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f9f9f9;
 }
