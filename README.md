@@ -21,7 +21,8 @@ This project is a React-based shop application built using [Vite](https://vitejs
 
 ## Live Demo
 
-You can try out the live version of the app [here](https://shop-application-9ng4.onrender.com).
+Try out the live version of the app:
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View-green?style=for-the-badge&logo=web&logoColor=white)](https://shop-application-9ng4.onrender.com)
 
 ## Installation
 
@@ -68,3 +69,5 @@ This project is licensed under the MIT License.
 ---
 
 If you found this project helpful or interesting, please consider giving it a star! ⭐
+
+[![Star this project](https://img.shields.io/github/stars/urssanjaysingh/Shop-Application?style=social)](https://github.com/urssanjaysingh/Shop-Application/stargazers)
