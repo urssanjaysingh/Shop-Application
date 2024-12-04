@@ -50,6 +50,11 @@
     border-bottom-left-radius: 30px !important;
 }
 
+.button-edit,
+.button-delete {
+    cursor: pointer;
+}
+
 @media (min-width: 633px) and (max-width: 768px) {
     .product-columns {
         display: grid;
